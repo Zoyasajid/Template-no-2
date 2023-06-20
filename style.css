@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body ,html{
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    
+    color: white;
+}
+/* .logo{
+    /* font-size: 3rem; */
+/* } */ 
+.nav-link{
+    align-items: center;
+    display: flex;
+    /* font-weight: 400; */
+    font-size: 1.5rem;
+}
+.nav-link li{
+    margin: 0 30px;
+    cursor: pointer;
+    /* transition: ; */
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("images/pexels-tatiana-syrikova-3933881.jpgs"); */
+     background-size : cover;
+     background-image: url("images/pexels-tatiana-syrikova-3933881.jpg");
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: bottom;
+    }
+.header-content{
+    margin-bottom: 150px;
+    /* color: white; */
+    color: rgb(206, 162, 162);
+    align-items: center;
+}
+.header-content h2{
+    font-size: 2rem;
+    /* align-items: center; */
+    text-align: center;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: blue;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 4rem;
+    margin-top:40px;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 19px 18px;
+    color: black;
+    background-color: blue;
+    border-radius: 30px;
+    /* margin-left: 240px; */
+}
+/* @media only screen and(max-width:850px) {
+    .navbar{
+        padding: 0;
+        color: yellowgreen;
+    }
+   
+    /* } */
+    /* .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-link{
+        flex-direction: column;
+        color: rgb(232, 14, 50);
+        /* width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: cadetblue;
+        margin-top: -900px; */ 
+
+        
+        /* .nav-link{
+            margin: 30px auto;
+        } */ */
+
+.section-2{
+    width:80%;
+    margin: 80px auto;
+}
+.title{
+    /* align-items: center; */
+    font-size: 2rem;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+
+}
+/* .row .events img{
+width: 70%;
+} */
+.events{
+    width: 50%;
+    /* padding: 30%; */
+}
+.pic-1{ 
+    width: 80%;
+ /* padding: 30px;     */
+}
+.pic-2{
+    width: 80%;
+
+}
+.section-2 .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    /* margin: 0px 40px; */
+    margin: 20px auto;
+}
+p{
+    /* color: ; */
+    padding: 0px 40px;
+}
+.row .events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2 .btn{
+    margin: 30px;
+}
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background-image: url("./images/pic-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center
+}
+.explore{
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore h1{
+    font-size: 7vmin;
+}
+.explore p {
+    margin-top:30px ;
+}
+.explore .btn{
+    margin-top: 40px;
+}
+.section-5{
+width: 100%;
+min-height: 100px;
+/* color: beige; */
+background-color: rgb(131, 121, 118);
+margin: 0;
+/* align-items: center; */
+text-align: center;
+padding: 20px 80px;
+}
+.section-5 p{
+    color: rgb(255, 255, 255);
+    margin: 20px auto;
+}
+@media (max-width:850px) {
+    .row{
+        flex-direction: column;
+
+        /* flex-wrap: wrap; */
+        /* background-color: rgb(131, 83, 12); */
+    }
+    .header-content h1{
+font-size: 2rem;
+    }
+.explore{
+    padding: 30px;
+}
+    .events{
+        width: 100%;
+    }
+    .events img{
+        max-width: 90%;
+    }
+    .row .events{
+        margin: 20px auto;
+    }
+    .explore{
+        width: 100%;
+    }
+}
+
+
